@@ -1,11 +1,12 @@
 ## Set-up
 
-### Using git clone:
+#### Using git clone:
 ```
 git clone https://github.com/firemax13/getkey.git
 ```
 ```
 cd getkey
+```
 ```
 pip3 install -r requirements-dev.txt
 ```
@@ -13,7 +14,7 @@ pip3 install -r requirements-dev.txt
 sudo python3 setup.py install
 ```
 
-### Using download.zip
+#### Using download.zip
 - extract the package.zip
 <br>
 - go to the extracted folder
