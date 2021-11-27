@@ -230,6 +230,8 @@ def windows_or_unix(*args, **kwargs):
 PLATFORMS = [
     ('linux', PlatformUnix),
     ('darwin', PlatformUnix),
+    ('freebsd12', PlatformUnix),
+    ('openbsd6', PlatformUnix),
     ('win32', PlatformWindows),
     ('cygwin', windows_or_unix),
 ]
