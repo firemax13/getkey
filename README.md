@@ -1,6 +1,9 @@
 ## Set-up
 
-#### Using git clone:
+### Python Version Supported:
+- __Python 3.5x__ to __Python 3.10.x__ (tested & working)
+
+#### Using GIT Method:
 ```
 git clone https://github.com/firemax13/getkey.git
 ```
@@ -14,7 +17,7 @@ pip3 install -r requirements-dev.txt
 sudo python3 setup.py install
 ```
 
-#### Using download.zip
+#### Using Download Package Method:
 - extract the package.zip
 >
 - go to the extracted folder
@@ -22,6 +25,7 @@ sudo python3 setup.py install
 - run CMD or Windows Terminal as "Administrator"
 >
 Run this commands:
+>
 ```
 pip3 install -r requirements-dev.txt
 ```
